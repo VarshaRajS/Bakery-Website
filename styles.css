@@ -17,24 +17,16 @@ img{
 
 .sec2{
     padding-top: 0.5%;
+    background-color: white;
 }
 
 .nav-item{
     padding: 0 18px;
 }
 
-.sec3{
-    padding-top: 0.5%;
-}
-
 .coupons{
     background-color: rgb(250, 211, 218);
-    height: 510px;
-    padding-bottom: 5%;
-}
-
-.part1{
-    padding: 10%;
+    padding-top: 0.5%;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -48,42 +40,38 @@ img{
 }
 
 .btn{
-    margin: 8%;
-}
-
-.image{
-   width: 100%;
-   height: auto;
+    margin: 3.2%;
 }
 
 i{
-    margin-top: 6%;
+    margin-top: 4%;
 }
 
-.fs{
-    background-color: black;
+.row{
     color: white;
-    width: 100%;
-    height: auto;
-    padding-top: 5%;
-    overflow-x: auto;
-overflow-y : hidden;
-
-}
-  
-th {
-    padding: 25px;
-    margin: 6%;
+    line-height: 0.3rem;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.2rem;
-  }
-
-td{
-    padding-left: 25px;
+    font-weight: lighter;
 }
 
-table { 
-    width: 100%; 
-    border-collapse: collapse; 
-  }
+#sec3{
+    background-color:black ;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 3%;
+}
 
+.final-section{
+    background-color: black;
+}
+
+h4{
+    padding-top: 5%;
+    padding-bottom: 3.5%;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar-brand{
+        --bs-navbar-brand-font-size: 1.5rem;
+    }
+  }
